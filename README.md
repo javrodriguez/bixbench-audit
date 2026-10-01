@@ -94,3 +94,11 @@ Any correction they make, or any error they find in this audit, will be recorded
 BixBench is by FutureHouse (Mitchener et al., 2025, arXiv:2503.00096; Apache-2.0).
 The selection set aside the data capsules of Phylo's BixBench-Verified-50, the capsules re-derived in the Anqi-Dai BixBench audit, and the Harbor Index tasks.
 marin-community/harbor issue #167 reviewed one agent run's outcomes on all 205 questions and reported confirmed defects in other questions; its body and comments name none of these ten (checked 30 Sep 2026).
+
+## License
+
+The write-up and records are licensed under [CC BY 4.0](LICENSE-CC-BY-4.0); the scripts under the [MIT License](LICENSE). The BixBench questions and data are not included and keep their own license.
+
+## Changes after the export
+
+1 Oct 2026: the unsent draft note to the benchmark's authors (`notes/DRAFT-maintainer-issue.md`) was removed from this public copy at the auditor's request, so `EXPORT-MANIFEST.json` lists one file this copy no longer carries; license files were added.
