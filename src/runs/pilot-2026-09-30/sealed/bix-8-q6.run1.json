@@ -1,0 +1,1 @@
+{"meta": {"distinct_GeneID_column": 617, "table_rows": 12754}, "question_id": "bix-8-q6", "readings": {"R-gene-names": {"defensible": true, "unit": "count", "value": 260}, "R-genes": {"defensible": true, "unit": "count", "value": 260}, "R-rows": {"defensible": false, "unit": "count", "value": 680}}}

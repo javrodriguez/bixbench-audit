@@ -1,0 +1,6 @@
+1c46c69c889df72389f508768454c2fe20069ea0aaeef96b4510a6c02463ae24  prereg/CHANGES-8.md
+bfa4a499ffbd6cd91affef3eb8d63b95ee7208467fb974ae980c30a41695ede9  scripts/q/bix-3-fit-p3.R
+24d59534c33bbd9d0c56a3df495c84a6c520d7dffce57247bf66e7b912572b27  scripts/q/bix-3-p3.py
+65670d983de7cc641619816a783fb20baa2c3591998024c6090ab47b6165574e  scripts/q/bix3_common.py
+db5ed7aa20f246d2f2b62b284ce9f0eb7d677ae3df1a891ce580076f799218ca  scripts/q/bix-3-prep.py
+b1125c8f48d2788655a6a5b51e8d48ace9df9ec19d40ba45da1de565417a3daa  scripts/verify_runs_v2.py

@@ -1,0 +1,3 @@
+b5e8fbcae98e42b5e77162935961ae422354611150debe313da143fa0e27ca74  runs/review3-probes-2026-09-30/bix-13-exhaust.run1.json
+b5e8fbcae98e42b5e77162935961ae422354611150debe313da143fa0e27ca74  runs/review3-probes-2026-09-30/bix-13-exhaust.run2.json
+2026-09-30 20:17:37 EDT note: both runs above read fit_dir=runs/recorded-2026-09-30/r1/fits-bix13 (r1 = r2 per fits-bix13.sha256); exit status 0 each (outputs non-empty, identical); CHANGES-13

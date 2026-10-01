@@ -1,0 +1,7 @@
+-- note: fitType='parametric', but the dispersion trend was not well captured by the
+   function: y = a/x + b, and a local regression fit was automatically substituted.
+   specify fitType='local' or 'mean' to avoid this message next time.
+Error in lfproc(x, y, weights = weights, cens = cens, base = base, geth = geth,  : 
+  newsplit: out of vertex space
+Calls: DESeq ... estimateDispersionsFit -> localDispersionFit -> locfit -> lfproc
+Execution halted

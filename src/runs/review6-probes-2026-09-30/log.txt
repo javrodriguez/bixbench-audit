@@ -1,0 +1,6 @@
+2026-09-30 20:53:25 EDT dropped-r1 run1 exit=0 fit_dir=runs/review5-probes-2026-09-30/r1/fits-dropped sha256=9c98345bdfcdd5d6c4fffb89b972c06fc3a48e6cb0e229ba1126109702b0f978
+2026-09-30 20:53:33 EDT dropped-r1 run2 exit=0 fit_dir=runs/review5-probes-2026-09-30/r1/fits-dropped sha256=9c98345bdfcdd5d6c4fffb89b972c06fc3a48e6cb0e229ba1126109702b0f978
+2026-09-30 20:53:41 EDT dropped-r2 run1 exit=0 fit_dir=runs/review5-probes-2026-09-30/r2/fits-dropped sha256=9c98345bdfcdd5d6c4fffb89b972c06fc3a48e6cb0e229ba1126109702b0f978
+2026-09-30 20:53:49 EDT dropped-r2 run2 exit=0 fit_dir=runs/review5-probes-2026-09-30/r2/fits-dropped sha256=9c98345bdfcdd5d6c4fffb89b972c06fc3a48e6cb0e229ba1126109702b0f978
+2026-09-30 20:53:57 EDT all36 run1 exit=0 fit_dir=runs/recorded-2026-09-30/r1/fits-bix13 sha256=c6ffff8a64d8905282799f32947ebc1248ac2d56085e3a1a8d1234939614ac14
+2026-09-30 20:54:06 EDT all36 run2 exit=0 fit_dir=runs/recorded-2026-09-30/r1/fits-bix13 sha256=c6ffff8a64d8905282799f32947ebc1248ac2d56085e3a1a8d1234939614ac14
