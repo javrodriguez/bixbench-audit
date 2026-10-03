@@ -1,0 +1,24 @@
+2026-10-01 19:43:05 EDT stage=origin rep=1 manifest=E5B-SCRIPTS-3.sha256 all inputs, scripts and pins verified
+origin-bix-13-q3 rep=1 exit=0 secs=44 sha256=8b0b0636e44b0e6919ae87688aed7a0899829d5e2c6d4f394faf7495bb2816ef cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/Rscript --vanilla <repo>/src/scripts/q/e5b/origin/bix-13-q3-origin.R <data>/data
+origin-bix-14-q2 rep=1 exit=0 secs=20 sha256=0aca1f0cadc9fa862f89dd32a8e30f7f1ba9fa358914e34c6c8020aa1c9c26a5 cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/origin/bix-14-q2-origin.py <data>/data
+origin-bix-52-q3 rep=1 exit=0 secs=2 sha256=957c1e8bcb77a24899f59c1081cfffd80111d345cd5379b072124de76239a140 cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/origin/bix-52-q3-origin.py <data>/data
+origin-fit-bix-53 rep=1 exit=0 secs=31 sha256=c88200b463e11dd96a490df01002ae82333303b1154ff4d8983ed49cddc44f12 cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/Rscript --vanilla <repo>/src/scripts/q/e5b/origin/bix-53-q3-origin-fit.R <data>/data <fits>/r1/origin-bix53
+origin-bix-53-q3 rep=1 exit=0 secs=21 sha256=eadfb04b4fd77f3c57c729f9638eea4c64d50c65427ef50f238e7ac0d695358a cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/origin/bix-53-q3-origin.py <fits>/r1/origin-bix53 <data>/annot/KEGG_2019_Mouse.gmt <data>/annot/Mus_musculus.GRCm38.102.gtf.gz <data>/annot/Mus_musculus.GRCm39.116.gtf.gz
+origin-bix-3-q4 rep=1 exit=0 secs=5 sha256=126fabe8c565c43334c2105c70940b6890cbceca95c055e1216f4aff1a2b8629 cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/origin/bix-3-q4-probe.py <fits>/r1/fits-bix3q4
+origin-bix-27-q2 rep=1 exit=0 secs=110 sha256=d319c8181b9ccb995bf624f1a4c515424934495a666b90372db38c9b49836ae6 cmd=/Users/<user>/aegis-builds/e5b-bixbench-lane/env2/venv/bin/python -s -P <repo>/src/scripts/q/e5b/origin/bix-27-q2-origin.py <data>/data
+fits-bix3q4 rep=1 tables=36 sha256=f3abba9c91661acb1547ba56539c96e9b16b7d242603b8aaa5977b7c06028059
+origin-bix53 rep=1 tables=2 sha256=4583bffc7a50c7e086f310c76240c3a484d5f70bf1264cfd69cafca7d4aaf505
+bix-3_normcount.csv rep=1 sha256=423ccf8da47f448b4519b341cdfc98bc4e0ec2a86ea9a134ab759b7625005d10
+bix-53_fit.csv rep=1 sha256=d5718ea71ed7dfb50dd464d357e9388a0fcfa05c48747a6af1f68867d36c7f62
+2026-10-01 19:47:09 EDT stage=origin rep=2 manifest=E5B-SCRIPTS-3.sha256 all inputs, scripts and pins verified
+origin-bix-13-q3 rep=2 exit=0 secs=55 sha256=8b0b0636e44b0e6919ae87688aed7a0899829d5e2c6d4f394faf7495bb2816ef cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/Rscript --vanilla <repo>/src/scripts/q/e5b/origin/bix-13-q3-origin.R <data>/data
+origin-bix-14-q2 rep=2 exit=0 secs=1026 sha256=0aca1f0cadc9fa862f89dd32a8e30f7f1ba9fa358914e34c6c8020aa1c9c26a5 cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/origin/bix-14-q2-origin.py <data>/data
+origin-bix-52-q3 rep=2 exit=0 secs=2 sha256=957c1e8bcb77a24899f59c1081cfffd80111d345cd5379b072124de76239a140 cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/origin/bix-52-q3-origin.py <data>/data
+origin-fit-bix-53 rep=2 exit=0 secs=27 sha256=c88200b463e11dd96a490df01002ae82333303b1154ff4d8983ed49cddc44f12 cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/Rscript --vanilla <repo>/src/scripts/q/e5b/origin/bix-53-q3-origin-fit.R <data>/data <fits>/r2/origin-bix53
+origin-bix-53-q3 rep=2 exit=0 secs=17 sha256=eadfb04b4fd77f3c57c729f9638eea4c64d50c65427ef50f238e7ac0d695358a cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/origin/bix-53-q3-origin.py <fits>/r2/origin-bix53 <data>/annot/KEGG_2019_Mouse.gmt <data>/annot/Mus_musculus.GRCm38.102.gtf.gz <data>/annot/Mus_musculus.GRCm39.116.gtf.gz
+origin-bix-3-q4 rep=2 exit=0 secs=4 sha256=126fabe8c565c43334c2105c70940b6890cbceca95c055e1216f4aff1a2b8629 cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/origin/bix-3-q4-probe.py <fits>/r2/fits-bix3q4
+origin-bix-27-q2 rep=2 exit=0 secs=96 sha256=d319c8181b9ccb995bf624f1a4c515424934495a666b90372db38c9b49836ae6 cmd=/Users/<user>/aegis-builds/e5b-bixbench-lane/env2/venv/bin/python -s -P <repo>/src/scripts/q/e5b/origin/bix-27-q2-origin.py <data>/data
+fits-bix3q4 rep=2 tables=36 sha256=f3abba9c91661acb1547ba56539c96e9b16b7d242603b8aaa5977b7c06028059
+origin-bix53 rep=2 tables=2 sha256=4583bffc7a50c7e086f310c76240c3a484d5f70bf1264cfd69cafca7d4aaf505
+bix-3_normcount.csv rep=2 sha256=423ccf8da47f448b4519b341cdfc98bc4e0ec2a86ea9a134ab759b7625005d10
+bix-53_fit.csv rep=2 sha256=d5718ea71ed7dfb50dd464d357e9388a0fcfa05c48747a6af1f68867d36c7f62

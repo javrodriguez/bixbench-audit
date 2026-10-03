@@ -1,0 +1,44 @@
+2026-10-01 18:58:39 EDT stage=light rep=1 manifest=E5B-SCRIPTS-2.sha256 all inputs, scripts and pins verified
+bix-7-q3 rep=1 exit=0 secs=21 sha256=66d2d90aa6cbe69db4f88f818d8f2dab6b43ee6c4093e293414a710d2293ca4a cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/bix-7-q3.py <data>/data
+bix-14-q2 rep=1 exit=0 secs=22 sha256=3dd270b123171aab7c939afe2b0f25eae4a0a016a368048242971486c05fad0f cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/bix-14-q2.py <data>/data
+bix-13-q3 rep=1 exit=0 secs=58 sha256=3bfb5b0e8fccf5c6f1d4c3150ad3ff5f8d1ea1b73e87633f9ceffa1742a819f6 cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/Rscript --vanilla <repo>/src/scripts/q/e5b/bix-13-q3.R <data>/data
+bix-37-q2 rep=1 exit=0 secs=2 sha256=6a990fea15fd930aae21f058e1dc54bbaae66e0b16352acf21d01cba99d7e4e8 cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/bix-37-q2.py <data>/data
+bix-52-q3 rep=1 exit=0 secs=2 sha256=b94d48be1da80ec510b23e24508878813b60e23591301adc8e3774b10afb7394 cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/bix-52-q3.py <data>/data
+bix-36-q5 rep=1 exit=0 secs=33 sha256=8c5c9e13b75a752e35758cceb9fe0a7f7d168fcdca14782f333f835f21ad61bd cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/bix-36-q5.py <data>/data
+fit-bix-53 rep=1 exit=0 secs=29 sha256=c93fe544f0c3846b64e4ecb88444ed1c40338ab9b75481288b26447c837217a6 cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/Rscript --vanilla <repo>/src/scripts/q/e5b/bix-53-q3-fit.R <data>/data <fits>/r1/bix-53_fit.csv
+bix-53-q3 rep=1 exit=0 secs=21 sha256=9c9df6edc18e7b777dd50a812dafd3b93f81b4e61723ae080e12a96c2f8334cd cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/bix-53-q3.py <fits>/r1/bix-53_fit.csv <data>/annot/KEGG_2019_Mouse.gmt <data>/annot/Mus_musculus.GRCm38.102.gtf.gz <data>/annot/Mus_musculus.GRCm39.116.gtf.gz
+bix-30-q5 rep=1 exit=0 secs=16 sha256=3183e76b3fc1e2b1a9d7fb76077ace664887724772b871aefa15efe053a8bc6f cmd=/Users/<user>/aegis-builds/e5b-bixbench-lane/env2/venv/bin/python -s -P <repo>/src/scripts/q/e5b/bix-30-q5.py <data>/data
+bix-53_fit.csv rep=1 sha256=d5718ea71ed7dfb50dd464d357e9388a0fcfa05c48747a6af1f68867d36c7f62
+2026-10-01 19:02:11 EDT stage=light rep=2 manifest=E5B-SCRIPTS-2.sha256 all inputs, scripts and pins verified
+bix-7-q3 rep=2 exit=0 secs=18 sha256=66d2d90aa6cbe69db4f88f818d8f2dab6b43ee6c4093e293414a710d2293ca4a cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/bix-7-q3.py <data>/data
+bix-14-q2 rep=2 exit=0 secs=18 sha256=3dd270b123171aab7c939afe2b0f25eae4a0a016a368048242971486c05fad0f cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/bix-14-q2.py <data>/data
+bix-13-q3 rep=2 exit=0 secs=51 sha256=3bfb5b0e8fccf5c6f1d4c3150ad3ff5f8d1ea1b73e87633f9ceffa1742a819f6 cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/Rscript --vanilla <repo>/src/scripts/q/e5b/bix-13-q3.R <data>/data
+bix-37-q2 rep=2 exit=0 secs=2 sha256=6a990fea15fd930aae21f058e1dc54bbaae66e0b16352acf21d01cba99d7e4e8 cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/bix-37-q2.py <data>/data
+bix-52-q3 rep=2 exit=0 secs=2 sha256=b94d48be1da80ec510b23e24508878813b60e23591301adc8e3774b10afb7394 cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/bix-52-q3.py <data>/data
+bix-36-q5 rep=2 exit=0 secs=34 sha256=8c5c9e13b75a752e35758cceb9fe0a7f7d168fcdca14782f333f835f21ad61bd cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/bix-36-q5.py <data>/data
+fit-bix-53 rep=2 exit=0 secs=36 sha256=c93fe544f0c3846b64e4ecb88444ed1c40338ab9b75481288b26447c837217a6 cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/Rscript --vanilla <repo>/src/scripts/q/e5b/bix-53-q3-fit.R <data>/data <fits>/r2/bix-53_fit.csv
+bix-53-q3 rep=2 exit=0 secs=28 sha256=9c9df6edc18e7b777dd50a812dafd3b93f81b4e61723ae080e12a96c2f8334cd cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/bix-53-q3.py <fits>/r2/bix-53_fit.csv <data>/annot/KEGG_2019_Mouse.gmt <data>/annot/Mus_musculus.GRCm38.102.gtf.gz <data>/annot/Mus_musculus.GRCm39.116.gtf.gz
+bix-30-q5 rep=2 exit=0 secs=22 sha256=3183e76b3fc1e2b1a9d7fb76077ace664887724772b871aefa15efe053a8bc6f cmd=/Users/<user>/aegis-builds/e5b-bixbench-lane/env2/venv/bin/python -s -P <repo>/src/scripts/q/e5b/bix-30-q5.py <data>/data
+bix-53_fit.csv rep=2 sha256=d5718ea71ed7dfb50dd464d357e9388a0fcfa05c48747a6af1f68867d36c7f62
+2026-10-01 19:06:00 EDT stage=bix3 rep=1 manifest=E5B-SCRIPTS-2.sha256 all inputs, scripts and pins verified
+prep-bix-3 rep=1 exit=0 secs=87 sha256=27e53cea2c5d6b894fbb61a894a9e602c34f69da68843879db4aa6d06ab239d2 cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/bix-3-prep.py <data>/data <fits>/r1/bix-3_normcount.csv
+fit-bix-3-q4 rep=1 exit=0 secs=833 sha256=52c3554d0902c97fd9eba6785f31bdbaaecc89891d9593b0e2b59d38bc5896a2 cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/Rscript --vanilla <repo>/src/scripts/q/e5b/bix-3-q4-fit.R <fits>/r1/bix-3_normcount.csv <fits>/r1/fits-bix3q4
+bix-3-q4 rep=1 exit=0 secs=8 sha256=bcab2990e4be9218d402ebe09f2d5e9d13452f95beae8a09a3feef4bdfa2ebcb cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/bix-3-q4.py <fits>/r1/fits-bix3q4
+fits-bix3q4 rep=1 tables=36 sha256=f3abba9c91661acb1547ba56539c96e9b16b7d242603b8aaa5977b7c06028059
+bix-3_normcount.csv rep=1 sha256=423ccf8da47f448b4519b341cdfc98bc4e0ec2a86ea9a134ab759b7625005d10
+bix-53_fit.csv rep=1 sha256=d5718ea71ed7dfb50dd464d357e9388a0fcfa05c48747a6af1f68867d36c7f62
+2026-10-01 19:21:50 EDT stage=bix27 rep=1 manifest=E5B-SCRIPTS-2.sha256 all inputs, scripts and pins verified
+bix-27-q2 rep=1 exit=0 secs=208 sha256=46a917e8bf534749af9cf2585caf41256dac9ac9eb28d93a577a139ecff64382 cmd=/Users/<user>/aegis-builds/e5b-bixbench-lane/env2/venv/bin/python -s -P <repo>/src/scripts/q/e5b/bix-27-q2.py <data>/data
+fits-bix3q4 rep=1 tables=36 sha256=f3abba9c91661acb1547ba56539c96e9b16b7d242603b8aaa5977b7c06028059
+bix-3_normcount.csv rep=1 sha256=423ccf8da47f448b4519b341cdfc98bc4e0ec2a86ea9a134ab759b7625005d10
+bix-53_fit.csv rep=1 sha256=d5718ea71ed7dfb50dd464d357e9388a0fcfa05c48747a6af1f68867d36c7f62
+2026-10-01 19:25:37 EDT stage=bix27 rep=2 manifest=E5B-SCRIPTS-2.sha256 all inputs, scripts and pins verified
+bix-27-q2 rep=2 exit=0 secs=197 sha256=46a917e8bf534749af9cf2585caf41256dac9ac9eb28d93a577a139ecff64382 cmd=/Users/<user>/aegis-builds/e5b-bixbench-lane/env2/venv/bin/python -s -P <repo>/src/scripts/q/e5b/bix-27-q2.py <data>/data
+bix-53_fit.csv rep=2 sha256=d5718ea71ed7dfb50dd464d357e9388a0fcfa05c48747a6af1f68867d36c7f62
+2026-10-01 19:29:00 EDT stage=bix3 rep=2 manifest=E5B-SCRIPTS-2.sha256 all inputs, scripts and pins verified
+prep-bix-3 rep=2 exit=0 secs=54 sha256=27e53cea2c5d6b894fbb61a894a9e602c34f69da68843879db4aa6d06ab239d2 cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/bix-3-prep.py <data>/data <fits>/r2/bix-3_normcount.csv
+fit-bix-3-q4 rep=2 exit=0 secs=712 sha256=52c3554d0902c97fd9eba6785f31bdbaaecc89891d9593b0e2b59d38bc5896a2 cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/Rscript --vanilla <repo>/src/scripts/q/e5b/bix-3-q4-fit.R <fits>/r2/bix-3_normcount.csv <fits>/r2/fits-bix3q4
+bix-3-q4 rep=2 exit=0 secs=10 sha256=bcab2990e4be9218d402ebe09f2d5e9d13452f95beae8a09a3feef4bdfa2ebcb cmd=/Users/<user>/aegis-builds/e5a-bixbench-lane/env/bin/python -s -P <repo>/src/scripts/q/e5b/bix-3-q4.py <fits>/r2/fits-bix3q4
+fits-bix3q4 rep=2 tables=36 sha256=f3abba9c91661acb1547ba56539c96e9b16b7d242603b8aaa5977b7c06028059
+bix-3_normcount.csv rep=2 sha256=423ccf8da47f448b4519b341cdfc98bc4e0ec2a86ea9a134ab759b7625005d10
+bix-53_fit.csv rep=2 sha256=d5718ea71ed7dfb50dd464d357e9388a0fcfa05c48747a6af1f68867d36c7f62

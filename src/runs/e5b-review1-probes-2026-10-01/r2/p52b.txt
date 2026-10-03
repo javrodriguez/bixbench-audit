@@ -1,0 +1,5 @@
+{'2': 58, 'Z': 51, '3': 32, '1': 29, '1A': 25, '4': 19, '5': 13, '6': 8} total 291
+lengths within x0.50-x2 of table, add1A4A=False: min chi2=119.2 (at table lengths 458.3)
+lengths within x0.50-x2 of table, add1A4A=True: min chi2=118.3 (at table lengths 459.6)
+lengths within x0.25-x4 of table, add1A4A=False: min chi2=27.9 (at table lengths 458.3)
+lengths within x0.25-x4 of table, add1A4A=True: min chi2=27.8 (at table lengths 459.6)

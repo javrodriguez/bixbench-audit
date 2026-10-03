@@ -1,13 +1,14 @@
-# BixBench answer-key audit: ten questions
+# BixBench answer-key audit: twenty questions in two batches
 
-An audit of ten answer keys in [BixBench](https://huggingface.co/datasets/futurehouse/BixBench) v1.5, FutureHouse's benchmark for AI agents doing computational biology.
+An audit of twenty answer keys in [BixBench](https://huggingface.co/datasets/futurehouse/BixBench) v1.5, FutureHouse's benchmark for AI agents doing computational biology, in two batches of ten.
+The sections from "What was audited" to "Limits" describe the first batch (E5a); the second batch (E5b), with its own pre-registration, is under "Second batch (E5b)".
 Each key was re-derived from the question's own data by deterministic scripts, under a pre-registration frozen by hash before any value was computed and extended, with dated and hashed addenda, as the work went on (Method, step 1), and given one verdict: keep, reword, wrong key, or undecided.
-The verdicts are the auditor's, Javier Rodriguez Hernaez's: on 30 Sep 2026 he adopted, in one reply ("defaults"), the rulings recommended by the orchestrating agent and recorded in `src/prereg/ADDENDUM-4.md`.
+The verdicts are the auditor's, Javier Rodriguez Hernaez's: on 30 Sep 2026 he adopted, in one reply ("defaults"), the rulings recommended by the orchestrating agent and recorded in `src/prereg/ADDENDUM-4.md`; for the second batch he did the same on 1 Oct 2026, recorded in `src/prereg/E5B-ADDENDUM-1.md`.
 This repository holds the scripts, the run records and the reviews behind each verdict; a few figures come from reviewers' own probes, and those are marked as such where they are cited.
 
 **How the work was done.** The scripts, the runs and the reviews were carried out, and the proposed verdicts and these texts drafted, by AI coding agents (Claude Code, Anthropic's Claude models) working under the auditor's direction; the auditor adopted the recommended verdicts and rulings, so every verdict, and every ruling on whether a reading is fair, is his.
 
-## What was audited
+## What was audited (first batch)
 
 Ten questions from BixBench v1.5 (Hugging Face revision `f8cc3bdc…`), chosen by a fixed rule (`src/prereg/PREREG.md`, amended by `ADDENDUM-1.md` and `ADDENDUM-3.md`; how and when it was fixed is under Method, step 1):
 - in the auditor's fields, by BixBench's own categories (RNA-seq, differential expression, transcriptomics, epigenomics, genomic variant analysis, single-cell); the ten that resulted cover bulk RNA-seq and differential expression in mouse, bacteria and human immune cells, and exome variant analysis;
@@ -17,7 +18,7 @@ Ten questions from BixBench v1.5 (Hugging Face revision `f8cc3bdc…`), chosen b
 The ten are spread over four studies.
 They are not a random sample, so the results below say nothing about how often any verdict applies across BixBench.
 
-## Method, in plain words
+## Method, in plain words (first batch)
 
 1. **Pre-registration.** Before any value was computed, the candidate selection rules, a verdict rubric, and how a value is compared with a key were written down and frozen by their sha256 hashes (`src/prereg/PREREG.md` and its addenda).
    The selection itself was fixed in two stages: three candidate rules were frozen before any value was computed; a pilot then ran, sealed and unread, on the five questions common to all three (four produced values; one was stopped before it did), plus a positive control, bix-8-q6, whose published counts it reproduced and which was read at once; the auditor then picked one rule (`ADDENDUM-3.md`) before any sealed value was read, and the remaining questions' scripts were frozen before they ran.
@@ -35,7 +36,7 @@ They are not a random sample, so the results below say nothing about how often a
 6. **Verdict.** The labels in force: *keep* (every pre-registered reading run gives a value the key accepts), *reword* (a fair reading, pre-registered or ruled fair, reaches the key but others do not, so the question needs words that fix the open choice), *wrong key* (no fair reading of the words reaches the key, and the reference notebook computes something the words rule out), *undecided* (neither can be shown).
    *Keep* and *reword* are the frozen rubric's definitions; *wrong key* and *undecided* are addendum 4's, adopted with the auditor's ruling after the values were known, and apply to the five questions with no accepted pre-registered reading. Where a reading the auditor ruled fair reaches the key, addendum 4 hands the case back to the frozen rubric, which is how bix-36-q1 is a reword although its key is a different quantity. With his rulings on readings they give the same ten verdicts as the frozen rubric, which, like addendum 4, asks for a second environment before "wrong key", and which has a fifth label, *remove*, given to none.
 
-## Results
+## Results (first batch)
 
 | Question | Topic | Verdict | In one line |
 |---|---|---|---|
@@ -54,7 +55,7 @@ They are not a random sample, so the results below say nothing about how often a
 A **separate finding** concerns the reference notebook behind the bix-3 questions: it scales each gene, rather than each sample, to one million before the differential-expression fit, which makes bix-3-q1's stated baseMean filter remove nothing.
 The reason, the evidence files, and what each verdict does **not** claim are in `notes/VERDICTS.md`.
 
-## Limits
+## Limits (first batch)
 
 - Ten questions, chosen by a rule, in one auditor's fields; no rate or generalisation to BixBench follows from them.
 - A verdict counts the readings the audit ran; a reading nobody tried could change a "keep" into a "reword", an "undecided" into a "reword", or a "wrong key" into a "reword". The rubric, the readings and the reviews are all here so that anyone can try more.
@@ -64,6 +65,74 @@ The reason, the evidence files, and what each verdict does **not** claim are in 
 - Two reference notebooks (bix-3, bix-36) used pydeseq2. The bix-36 fold-change analysis was rebuilt in R DESeq2 and matches the key; bix-3's key-producing step could not be rebuilt in R DESeq2, so that provenance rests on the notebook's own code and printed output.
 - The reviewers were AI model instances of the same model family as the agents that did the work, not independent human experts.
 - The pre-registered readings were written by an agent that had seen the keys; they are listed in full in the scripts so that anyone can judge whether they lean toward them.
+- Nothing here evaluates any model or agent.
+
+## Second batch (E5b)
+
+Ten more BixBench v1.5 questions, audited the same way under a new pre-registration.
+The verdicts are the auditor's: on 1 Oct 2026 at 23:48 EDT (as relayed by the orchestrating agent, `src/prereg/E5B-ADDENDUM-1.md`) he adopted, in one reply ("defaults"), the nine rulings and ten verdicts recommended by the orchestrating agent on a decision sheet (`notes/E5B-FOR-JAVIER.md`).
+His first-batch rulings on readings were not extended to this batch; where a ruling here matches one of them, it is a new ruling of his.
+The E5b records were written before he gave his word to publish this batch, so they still say that word was not yet given; he gave it on 2 Oct 2026 at 22:05 EDT ("publish E5b").
+The reasons, the evidence files, and what each verdict does **not** claim are in `notes/E5B-VERDICTS.md`.
+
+### What changed from the first batch
+
+1. **Pre-registration.** `src/prereg/E5B-PREREG-2026-10-01.md` was frozen by its sha256, recorded in the auditor's private plan, before any E5b question script was written (1 Oct 2026); it carries over the first batch's rubric with addendum 4 as the auditor adopted it on 30 Sep, and every later change is a dated, hashed file (`E5B-CHANGES-1` to `-8`, `E5B-ADDENDUM-1`).
+2. **Selection.** A mechanical rule (`src/scripts/select_e5b.py`, output `src/prereg/E5B-selection-2026-10-01.json`): not one of the 50 BixBench-Verified-50 questions (this time the questions themselves are excluded, not whole capsules); graded by a fixed key; the first batch's fields and size limit; not in the capsules or tasks the first batch set aside, nor in capsule bix-22; not named in eleven public GitHub threads about BixBench keys or graders, listed in the pre-registration; and not one of the first batch's ten or named in its notes.
+   21 questions from ten papers remained, and the first question of each paper was taken.
+   The selection was computed before the agent read the text or key of any of the ten.
+   Four of the ten come from capsules (bix-3, bix-7, bix-13, bix-36) whose data the first batch had already computed on; no first-batch value was compared with a second-batch key.
+3. **Readings before the keys.** Each script's readings were written from the question text alone; a fresh-context reviewer, blind to the keys, checked the scripts before any ran, and its five major findings were answered before the first run (`E5B-CHANGES-1`).
+   One script stopped at its own check before producing a value, and readings for missing values were added before any value of that question existed and before any E5b output or key was read (`E5B-CHANGES-2`; the stopped attempt is kept as a record).
+   The keys were read only after the first recorded repetition of all ten.
+4. **Two pinned runs.** The first batch's environment, plus a second Python lockfile (`src/envlock/e5b-py-lock.txt`) for two packages two questions need, scikit-learn and xlrd; every output of the two repetitions is byte-identical (`src/scripts/verify_runs_e5b.py`).
+5. **Provenance.** After the first repetition each reference notebook was read and, where possible, the key's origin was rebuilt from the data and run twice; those readings are labelled "added after key".
+6. **Adversarial review.** Four rounds of fresh-context AI reviewers (claude-opus-5-5 instances) were told to break every proposed wrong key and undecided and to test every keep and reword; they made 5, 2, 1 and 0 major findings, and each round was answered by a dated amendment; the probes of rounds 1 and 2 and two of round 4's three were rerun twice under the lane's hashing, while round 3's probe, a bound rather than a reading, was not rerun and its major finding was answered by new readings on the real Zebra Finch lengths (`E5B-CHANGES-7`); the loop stopped at round 4, the first with no major finding (`src/reviews/E5B-ADVERSARIAL-1.md` to `-4.md`).
+
+### Results (second batch)
+
+| Question | Topic | Verdict | In one line |
+|---|---|---|---|
+| bix-3-q4 | mouse tissues, genes DE in all three tissue comparisons | reword | no pre-registered reading reaches the key; adding a baseMean filter, ruled fair, does for two model set-ups, so the question should name the cohort, the fit and the thresholds |
+| bix-7-q3 | exome variants, a count of variants | reword (minor) | counting variant rows (one per sample) reaches the key and counting distinct variants does not |
+| bix-13-q3 | bacterial mutants, genes with a very small dispersion estimate | reword | with all samples no reading reaches the key; with the notebook's three samples removed, ruled fair, it does, so the question should name them |
+| bix-14-q2 | exome variants, missense share in parents against probands | reword | no pre-registered reading reaches the key; the notebook's removal of intronic, intergenic and UTR variants, ruled fair, does, and the value rests on few variants |
+| bix-27-q2 | clustering, samples placed alike by two clusterings | reword | the notebook's route with the cluster labels matched, ruled fair, lands in the key for 31 of 34 seeds; the steps and the seed should be stated |
+| bix-30-q5 | miRNA qPCR, miRNAs significant under three corrections | keep | all 36 pre-registered readings give the key |
+| bix-36-q5 | miRNA fold changes, the shape of their distribution | undecided | no pre-registered label gives the key; the notebook reaches it by a judgement by eye, which was ruled not a fair reading |
+| bix-37-q2 | proteomics, one protein's level in one sample group | reword (minor) | the value on its linear scale reaches the key; the pre-registered log2 reading does not, and was kept |
+| bix-52-q3 | Zebra Finch CpG sites, a chi-squared test across chromosomes | **wrong key** | no Zebra Finch reading run reaches the key; the key matches the notebook's statistic for the other species in the capsule, the Jackdaw |
+| bix-53-q3 | DE genes overlapping a pathway | reword | with all six samples no reading reaches the key; with the notebook's two samples removed, ruled fair, every variant tried does, with the key's ratio format read as the count |
+
+**Count: keep 1, reword 7, wrong key 1, undecided 1.**
+**Four separate findings**, reported whatever the rulings:
+- **bix-3 (reference notebook).** Cell 29 scales each gene's row, not each sample, the defect the first batch reported for bix-3.
+- **bix-27 (reference notebook).** Cell 71 compares raw cluster labels from two separate clusterings; its count is right only when the arbitrary numbering happens to agree.
+- **bix-53 (reference notebook).** Cells 15-16 label the two conditions the reverse of cell 14's description and of the question; the count is unaffected.
+- **bix-52 (capsule).** The capsule's Zebra Finch chromosome-length file (`ZF_Chromosome_Length.csv`) is byte-identical to its Jackdaw length file; the notebook's cell 14 downloads the Jackdaw file under the Zebra Finch name.
+
+For comparison, the first batch ended keep 2, reword 6, wrong key 1, undecided 1.
+The two batches were chosen by different fixed rules, not at random; neither count, nor their sum, says anything about how often any verdict applies across BixBench or BixBench-Verified-50.
+
+### bix-52-q3: what the wrong key is, and is not
+
+- **What it is.** The question names the Zebra Finch.
+  The key's range holds, to the key's shown precision, the reference notebook's chi-squared statistic for the Jackdaw (cell 39), not its Zebra Finch statistic (cell 36).
+  None of the 32 pre-registered Zebra Finch readings reaches the key, and neither do the readings that need no length table or the per-base-pair readings recomputed, after the key, on the real Zebra Finch chromosome lengths from the NCBI reference assembly bTaeGut1.4.pri, which give 161 to 652 (`src/prereg/E5B-CHANGES-7.md`).
+  Base R's `chisq.test`, the notebook's own tool, reproduces all six real-length readings and three of the length-free ones as the second environment, and a planted change to the input moves a reading's value (the mutation witness).
+  The auditor ruled it wrong key, holding that the genome a question names is "the variable measured" under addendum 4's rule 1(c) (ruling 8).
+- **The alternative was remove.** Because the capsule's Zebra Finch length file is the Jackdaw file, the capsule lacks a file the per-base-pair reading needs; that case for remove was put to the auditor, and he chose wrong key.
+- **What it is not.** It does not say which Zebra Finch reading is right, or what a repaired key should be: that needs a Zebra Finch computation with words that fix the reading.
+  Beyond the length file, it does not judge the notebook's analysis.
+  It rests on four rounds of review by AI model instances, the last with no major finding, not on independent human experts, and a reading nobody tried could still change it.
+
+### Limits (second batch)
+
+- Ten questions, chosen by a rule; no rate or generalisation to BixBench follows from them, and nothing here concerns BixBench-Verified-50's own 50 questions.
+- The prior-art test covers only the eleven threads the pre-registration lists; it does not show that no one else has examined these questions.
+- Six verdicts rest on the auditor's rulings on readings added after the keys were seen (the rewords of bix-3-q4, bix-13-q3, bix-14-q2, bix-27-q2 and bix-53-q3, and the undecided bix-36-q5), bix-52-q3 rests on his rulings that it is wrong key rather than remove and on how rule 1(c) applies, bix-14-q2 also on his ruling that its variant filter is an open choice, and bix-37-q2 on his choice not to set aside a pre-registered reading; those rulings are judgements, recorded with the reasons given for the recommendations he adopted (`notes/E5B-FOR-JAVIER.md`, `notes/E5B-PROPOSED-VERDICTS.md`).
+- The pre-registration's freeze is attested by hashes and local file times, not by an external timestamp.
+- The reviewers were AI model instances of the same model family as the agents that did the work.
 - Nothing here evaluates any model or agent.
 
 ## How to reproduce
@@ -82,6 +151,7 @@ These steps rebuild the environment and the data layout the recorded runs read. 
 5. **Runs.** For each stage run two repetitions: `python3 -P src/scripts/run_recorded_v2.py <run_dir> W/data env <stage> 1`, then the same with `2`. Stages are `chip`, `bix36` and `bix13`, plus `bix3`, which takes a sixth argument, `SCRIPTS-7.sha256`. The runner refuses to start if any pinned file differs.
 6. **Checks.** `python3 -P src/scripts/verify_runs_v2.py src/runs/pilot-2026-09-30/sealed <run_dir>` checks repetition against repetition and against the pilot. `env/bin/python -P src/scripts/compare2.py <run_dir>/r1/<question>.json src/inputs/BixBench.jsonl src/inputs/graders_49311180.py` compares values with keys; its output quotes keys, so keep it local.
 7. **Key-origin rebuilds and review probes.** The key-origin rebuilds (`src/scripts/q/bix-13-origin.R`, `bix-3-origin.R`) and the per-sample counts-per-million runs (`src/scripts/run_p3.sh`) are described in `src/prereg/CHANGES-6.md`, `CHANGES-8.md` and `CHANGES-9b.md`; the probes added during review are in `src/scripts/q/`, with their change notes in `CHANGES-10.md` to `CHANGES-15.md`. Some run drivers name a local Mac-scheduling helper and local paths, which a reader replaces or removes.
+8. **Second batch.** `src/scripts/run_e5b.py` runs one stage and one repetition per call (its header names the arguments and the stages `light`, `bix3`, `bix27` and `origin`) and refuses to start unless every pinned file matches; `src/scripts/verify_runs_e5b.py` checks repetition against repetition. The data layout it reads, and the hash lists it checks, are described in `src/prereg/E5B-PREREG-2026-10-01.md` and `E5B-CHANGES-1.md`; this route has not been followed from a fresh copy.
 
 ## Contact
 
@@ -102,3 +172,4 @@ The write-up and records are licensed under [CC BY 4.0](LICENSE-CC-BY-4.0); the 
 ## Changes after the export
 
 1 Oct 2026: the unsent draft note to the benchmark's authors (`notes/DRAFT-maintainer-issue.md`) was removed from this public copy at the auditor's request, so `EXPORT-MANIFEST.json` lists one file this copy no longer carries; license files were added.
+2 Oct 2026: the second batch was added, at the auditor's word, by a new export from the records repository; the license files and this README are now part of the export, and the draft note is again left out of this copy, so `EXPORT-MANIFEST.json` still lists that one file.

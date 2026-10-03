@@ -1,0 +1,16 @@
+ZF rows 19698 sites 1140 filtered rows 539 filtered sites 291 samples 20
+ contingency filtered vs not (all chroms) 274.0866607008603
+ contingency, length-table chroms 262.63846450062647
+ mean-per-sample filtered rows, length-prop K2 61.44264439721742
+ K2 E2 distinct 712.9999999999999 K3 E2 727.8316151202748
+ K1 E1 distinct 554.5707834766181
+ sites mean extreme 0 median extreme 0
+ data chroms not in length table ['1A', '4A'] filtered sites there {'1A': 25, '4A': 1}
+JD rows 24527 sites 1304 filtered rows 52 filtered sites 51 samples 20
+ contingency filtered vs not (all chroms) 66.38401977470627
+ contingency, length-table chroms 66.38401977470627
+ mean-per-sample filtered rows, length-prop K2 2.4565315058419293
+ K2 E2 distinct 29.392156862745097 K3 E2 29.392156862745097
+ K1 E1 distinct 74.60573043540158
+ sites mean extreme 0 median extreme 0
+ data chroms not in length table [] filtered sites there {}

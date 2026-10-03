@@ -1,0 +1,369 @@
+{
+ "rule": "question not in Verified-50 \u00b7 str/range \u00b7 field \u00b7 capsule <= 50 MB \u00b7 not audited elsewhere \u00b7 not E5a \u00b7 round-robin by source paper, top 10",
+ "pins": {
+  "BixBench.jsonl": "0d1204dcdae7193a9132ced5a3502008f6b3b163debc1b65b2aa2d86cb132dc9",
+  "bixbench_tree.json": "db7a3ecb0b96e6a4df9f44361ec1df3f41ed9f946d992861a5bbbe062b1f2b35",
+  "BixBench-Verified-50.jsonl": "940de7d97eb6a9616a446734f4838188879deaf5a6b43acf5cac63623bccb593"
+ },
+ "prior_art_files": {
+  "Future-House_BixBench-35-comments.json": "2062854dcc184e5f72bfc4f78d5f528c73ef72c970e0b2b5e11eb5e5e78e30eb",
+  "Future-House_BixBench-35-issue.json": "e64cc16547439b3fc373697c505f1420cfdf617066128e912b42af16fc23854e",
+  "XinmingTu_BenchGuard-16-comments.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "XinmingTu_BenchGuard-16-issue.json": "dc82b97a3958b9862bcd9d2ef4b77e0a7c2aa4dc0f4545f1e6dff0603addaa43",
+  "XinmingTu_BenchGuard-2-comments.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "XinmingTu_BenchGuard-2-issue.json": "e4f38fcf689614bfe13ac8450d9091bb116a4e3580b25da28de51d8ff406a673",
+  "XinmingTu_BenchGuard-5-comments.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "XinmingTu_BenchGuard-5-issue.json": "4ddf53273150a2cb188d8bf3b63cbb42b4dc49e277bbf78f4c2d4e97b95583b1",
+  "XinmingTu_BenchGuard-6-comments.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "XinmingTu_BenchGuard-6-issue.json": "717f15651e9fd04f900f8056afaedc95816bc944e265e6b4901524f16f3120a9",
+  "bio-xyz_BioAgents-181-comments.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "bio-xyz_BioAgents-181-issue.json": "21f120aef2d165d7619b16728e0730a8b9f9a7201bd0a826d9f465f6da875ecb",
+  "concordia-ai_concordia_evals-3-comments.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "concordia-ai_concordia_evals-3-issue.json": "e7ecef814eba123db9058bcf2d6ab91ef123d8568ae4f81d715ab657407d9cbf",
+  "gh-search-bixbench.json": "fe25917ba46a6a80fff457e1bd24b3e253cce28da4eff674ea5dda8e33485ef7",
+  "harbor-167-comments.json": "e92b61535b057263db2111aca7c9f47a23726e81a4c3e7bda6490de6b7fff6a3",
+  "harbor-167-issue.json": "b7ffd2af17e32900dc504dfa697c4a6a2d6b1cca6212e5f8f70f87e285a14e40",
+  "marin-9258-comments.json": "0bc14023c3dc7600fb866c1b4bf29cd5f8b4661e5a0a8d2eb683e65dfaa4c3b5",
+  "marin-9258-issue.json": "69f526d37890f5485b365ae434f1aa1990c732bba8abebdfae7e57afaeb4c986",
+  "marin-community_harbor-177-comments.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "marin-community_harbor-177-issue.json": "5c9c683935a282a6ff9feb33170c86b5c4a30a306c382642d15e2f090cfe82ca",
+  "marin-community_harbor-192-comments.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "marin-community_harbor-192-issue.json": "6520f072b7fd11d19924b2a2d5f8048f592ca2ff2b907cab6df3282072eb3748"
+ },
+ "prior_art_ids_named": [
+  "bix-1-q1",
+  "bix-4-q1",
+  "bix-4-q5",
+  "bix-4-q6",
+  "bix-6-q5",
+  "bix-6-q7",
+  "bix-7-q2",
+  "bix-8-q6",
+  "bix-10-q2",
+  "bix-11-q1",
+  "bix-11-q2",
+  "bix-11-q5",
+  "bix-16-q1",
+  "bix-18-q2",
+  "bix-18-q5",
+  "bix-19-q2",
+  "bix-20-q1",
+  "bix-22-q6",
+  "bix-26-q5",
+  "bix-27-q5",
+  "bix-28-q1",
+  "bix-28-q4",
+  "bix-28-q6",
+  "bix-30-q1",
+  "bix-30-q3",
+  "bix-31-q2",
+  "bix-38-q1",
+  "bix-38-q3",
+  "bix-38-q6",
+  "bix-43-q4",
+  "bix-45-q1",
+  "bix-45-q5",
+  "bix-49-q4",
+  "bix-51-q2",
+  "bix-51-q8",
+  "bix-52-q1",
+  "bix-52-q2",
+  "bix-52-q5",
+  "bix-53-q4",
+  "bix-53-q6",
+  "bix-54-q4",
+  "bix-54-q5",
+  "bix-54-q7",
+  "bix-61-q1",
+  "bix-61-q5"
+ ],
+ "pool_rows": 205,
+ "remaining_after_each_test_in_order": {
+  "1_not_v50": 155,
+  "2_fixed_key": 92,
+  "3_field": 60,
+  "4_light": 54,
+  "5a_not_anqi_dai_or_harbor_index": 39,
+  "5b_not_named_in_prior_art": 34,
+  "5c_not_issue_35_capsule": 32,
+  "6_not_e5a": 21
+ },
+ "shortlist": [
+  {
+   "question_id": "bix-3-q4",
+   "short_id": "bix-3",
+   "capsule_uuid": "94bcdbc9-c729-4661-9bc1-0057bbea39c4",
+   "capsule_bytes": 38452645,
+   "eval_mode": "range_verifier",
+   "fields": [
+    "Differential Expression Analysis",
+    "RNA-seq",
+    "Transcriptomics"
+   ],
+   "paper": "zenodo.org/records/4287588"
+  },
+  {
+   "question_id": "bix-7-q3",
+   "short_id": "bix-7",
+   "capsule_uuid": "a02b761a-02b6-46b5-9d5e-2964d5a74960",
+   "capsule_bytes": 10175217,
+   "eval_mode": "range_verifier",
+   "fields": [
+    "Genomic Variant Analysis"
+   ],
+   "paper": "doi.org/10.3324/haematol.2024.285239"
+  },
+  {
+   "question_id": "bix-9-q4",
+   "short_id": "bix-9",
+   "capsule_uuid": "873bada5-b1f3-423a-87dc-9ddd486c4843",
+   "capsule_bytes": 38596324,
+   "eval_mode": "str_verifier",
+   "fields": [
+    "Differential Expression Analysis",
+    "RNA-seq",
+    "Transcriptomics"
+   ],
+   "paper": "zenodo.org/records/4287588"
+  },
+  {
+   "question_id": "bix-13-q3",
+   "short_id": "bix-13",
+   "capsule_uuid": "1d54e4a7-8b0f-4224-bd31-efcfded0d46c",
+   "capsule_bytes": 709983,
+   "eval_mode": "str_verifier",
+   "fields": [
+    "Differential Expression Analysis",
+    "RNA-seq",
+    "Transcriptomics"
+   ],
+   "paper": "doi.org/10.17912/micropub.biology.001326"
+  },
+  {
+   "question_id": "bix-13-q4",
+   "short_id": "bix-13",
+   "capsule_uuid": "1d54e4a7-8b0f-4224-bd31-efcfded0d46c",
+   "capsule_bytes": 709983,
+   "eval_mode": "str_verifier",
+   "fields": [
+    "Differential Expression Analysis",
+    "RNA-seq",
+    "Transcriptomics"
+   ],
+   "paper": "doi.org/10.17912/micropub.biology.001326"
+  },
+  {
+   "question_id": "bix-13-q5",
+   "short_id": "bix-13",
+   "capsule_uuid": "1d54e4a7-8b0f-4224-bd31-efcfded0d46c",
+   "capsule_bytes": 709983,
+   "eval_mode": "str_verifier",
+   "fields": [
+    "Differential Expression Analysis",
+    "RNA-seq",
+    "Transcriptomics"
+   ],
+   "paper": "doi.org/10.17912/micropub.biology.001326"
+  },
+  {
+   "question_id": "bix-14-q2",
+   "short_id": "bix-14",
+   "capsule_uuid": "7718a922-ce2c-4e59-900b-84fe06050ce6",
+   "capsule_bytes": 10179954,
+   "eval_mode": "range_verifier",
+   "fields": [
+    "Genomic Variant Analysis"
+   ],
+   "paper": "doi.org/10.1172/jci.insight.167744"
+  },
+  {
+   "question_id": "bix-14-q3",
+   "short_id": "bix-14",
+   "capsule_uuid": "7718a922-ce2c-4e59-900b-84fe06050ce6",
+   "capsule_bytes": 10179954,
+   "eval_mode": "str_verifier",
+   "fields": [
+    "Genomic Variant Analysis"
+   ],
+   "paper": "doi.org/10.1172/jci.insight.167744"
+  },
+  {
+   "question_id": "bix-20-q2",
+   "short_id": "bix-20",
+   "capsule_uuid": "2ccdbe37-0a92-47b5-9bab-fa8a8c470799",
+   "capsule_bytes": 10181213,
+   "eval_mode": "range_verifier",
+   "fields": [
+    "Genomic Variant Analysis"
+   ],
+   "paper": "doi.org/10.3324/haematol.2024.285239"
+  },
+  {
+   "question_id": "bix-20-q4",
+   "short_id": "bix-20",
+   "capsule_uuid": "2ccdbe37-0a92-47b5-9bab-fa8a8c470799",
+   "capsule_bytes": 10181213,
+   "eval_mode": "range_verifier",
+   "fields": [
+    "Genomic Variant Analysis"
+   ],
+   "paper": "doi.org/10.3324/haematol.2024.285239"
+  },
+  {
+   "question_id": "bix-27-q2",
+   "short_id": "bix-27",
+   "capsule_uuid": "0f14ffa7-f02a-4d20-8142-dfc404195e56",
+   "capsule_bytes": 8637626,
+   "eval_mode": "range_verifier",
+   "fields": [
+    "RNA-seq",
+    "Transcriptomics"
+   ],
+   "paper": "doi.org/10.5061/dryad.ttdz08kxq"
+  },
+  {
+   "question_id": "bix-30-q5",
+   "short_id": "bix-30",
+   "capsule_uuid": "3d4eb7bb-4fbc-4300-b79a-3eba7a6221bc",
+   "capsule_bytes": 53621,
+   "eval_mode": "str_verifier",
+   "fields": [
+    "Differential Expression Analysis",
+    "Transcriptomics"
+   ],
+   "paper": "10.1371/journal.pone.0150501"
+  },
+  {
+   "question_id": "bix-30-q6",
+   "short_id": "bix-30",
+   "capsule_uuid": "3d4eb7bb-4fbc-4300-b79a-3eba7a6221bc",
+   "capsule_bytes": 53621,
+   "eval_mode": "str_verifier",
+   "fields": [
+    "Differential Expression Analysis",
+    "Transcriptomics"
+   ],
+   "paper": "10.1371/journal.pone.0150501"
+  },
+  {
+   "question_id": "bix-36-q5",
+   "short_id": "bix-36",
+   "capsule_uuid": "48181cce-3928-4491-94b4-c23504a6aaa1",
+   "capsule_bytes": 26949522,
+   "eval_mode": "str_verifier",
+   "fields": [
+    "Differential Expression Analysis",
+    "RNA-seq",
+    "Transcriptomics"
+   ],
+   "paper": "zenodo.org/records/10000430"
+  },
+  {
+   "question_id": "bix-37-q2",
+   "short_id": "bix-37",
+   "capsule_uuid": "40cbef03-b5c3-4448-b00f-0ba2965dea9b",
+   "capsule_bytes": 1935693,
+   "eval_mode": "str_verifier",
+   "fields": [
+    "Differential Expression Analysis",
+    "RNA-seq"
+   ],
+   "paper": "10.17632/dj4sb8h3c3.1"
+  },
+  {
+   "question_id": "bix-37-q3",
+   "short_id": "bix-37",
+   "capsule_uuid": "40cbef03-b5c3-4448-b00f-0ba2965dea9b",
+   "capsule_bytes": 1935693,
+   "eval_mode": "str_verifier",
+   "fields": [
+    "Differential Expression Analysis",
+    "RNA-seq"
+   ],
+   "paper": "10.17632/dj4sb8h3c3.1"
+  },
+  {
+   "question_id": "bix-39-q2",
+   "short_id": "bix-39",
+   "capsule_uuid": "28a5984e-9061-4d6f-99a1-40f8753bc9f4",
+   "capsule_bytes": 10170931,
+   "eval_mode": "str_verifier",
+   "fields": [
+    "Genomic Variant Analysis"
+   ],
+   "paper": "doi.org/10.3324/haematol.2024.285239"
+  },
+  {
+   "question_id": "bix-46-q1",
+   "short_id": "bix-46",
+   "capsule_uuid": "d37acffb-d802-4ce0-8caa-66f50667367a",
+   "capsule_bytes": 1017441,
+   "eval_mode": "str_verifier",
+   "fields": [
+    "Differential Expression Analysis",
+    "RNA-seq",
+    "Transcriptomics"
+   ],
+   "paper": "doi.org/10.17912/micropub.biology.001326"
+  },
+  {
+   "question_id": "bix-47-q2",
+   "short_id": "bix-47",
+   "capsule_uuid": "4a336d0c-3d6b-440a-bfb0-437b26a00af3",
+   "capsule_bytes": 10187338,
+   "eval_mode": "str_verifier",
+   "fields": [
+    "Genomic Variant Analysis"
+   ],
+   "paper": "doi.org/10.3324/haematol.2024.285239"
+  },
+  {
+   "question_id": "bix-52-q3",
+   "short_id": "bix-52",
+   "capsule_uuid": "4dceea58-7d66-4576-bfc6-88c026d5b7a9",
+   "capsule_bytes": 617720,
+   "eval_mode": "range_verifier",
+   "fields": [
+    "Epigenomics"
+   ],
+   "paper": "doi.org/10.5061/dryad.wm37pvmw8"
+  },
+  {
+   "question_id": "bix-53-q3",
+   "short_id": "bix-53",
+   "capsule_uuid": "308d53bf-1513-4a09-913b-3a1112f94e7b",
+   "capsule_bytes": 600805,
+   "eval_mode": "str_verifier",
+   "fields": [
+    "Differential Expression Analysis",
+    "RNA-seq",
+    "Transcriptomics"
+   ],
+   "paper": "zenodo.org/records/14063261, https://www.jbc.org/article/s0021-9258(24)02587-0/fulltext"
+  }
+ ],
+ "papers_in_order": [
+  "zenodo.org/records/4287588",
+  "doi.org/10.3324/haematol.2024.285239",
+  "doi.org/10.17912/micropub.biology.001326",
+  "doi.org/10.1172/jci.insight.167744",
+  "doi.org/10.5061/dryad.ttdz08kxq",
+  "10.1371/journal.pone.0150501",
+  "zenodo.org/records/10000430",
+  "10.17632/dj4sb8h3c3.1",
+  "doi.org/10.5061/dryad.wm37pvmw8",
+  "zenodo.org/records/14063261, https://www.jbc.org/article/s0021-9258(24)02587-0/fulltext"
+ ],
+ "top10": [
+  "bix-3-q4",
+  "bix-7-q3",
+  "bix-13-q3",
+  "bix-14-q2",
+  "bix-27-q2",
+  "bix-30-q5",
+  "bix-36-q5",
+  "bix-37-q2",
+  "bix-52-q3",
+  "bix-53-q3"
+ ]
+}

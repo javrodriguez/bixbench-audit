@@ -1,0 +1,4 @@
+t after 2 shrinks 53.78548 secs 
+baseMean>= 0  apeglm per-contrast 373 12663 12701  intersection 275  union 13497  | MLE intersection 557 
+baseMean>= 10  apeglm per-contrast 264 9895 9953  intersection 233  union 10392  | MLE intersection 469 
+elapsed 1.227413 mins 

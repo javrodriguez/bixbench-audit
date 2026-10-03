@@ -1,0 +1,8 @@
+X4 pvalue baseMean >= 10: sig 1952 overlap 22
+X4 pvalue baseMean > 10: sig 1952 overlap 22
+X4 padj baseMean >= 10: sig 1927 overlap 22
+X4 padj baseMean > 10: sig 1927 overlap 22
+X6 pvalue baseMean >= 10: sig 1472 overlap 20
+X6 pvalue baseMean > 10: sig 1472 overlap 20
+X6 padj baseMean >= 10: sig 1414 overlap 20
+X6 padj baseMean > 10: sig 1414 overlap 20

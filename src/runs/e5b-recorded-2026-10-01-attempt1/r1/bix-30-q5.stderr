@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/<user>/glitch/workspaces/bixbench-audit/src/scripts/q/e5b/bix-30-q5.py", line 35, in <module>
+    assert np.isfinite(x.to_numpy()).all()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

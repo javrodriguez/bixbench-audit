@@ -1,0 +1,7 @@
+2026-10-01 20:29:55 EDT probe36 rep=1 start
+origin-fit-bix-36-q5 rep=1 exit=0 lfc_sha256=f18a7ae1c500615c63ddb5ce8dfb2ff7c7910aa7a0081d01c82c58629045dc7a
+origin-bix-36-q5 rep=1 exit=0 sha256=603317313b27ed7a870ba2093238411ba3c33da09ded4822c42b1c1b70cc36c8
+2026-10-01 20:30:53 EDT probe36 rep=2 start
+origin-fit-bix-36-q5 rep=2 exit=0 lfc_sha256=f18a7ae1c500615c63ddb5ce8dfb2ff7c7910aa7a0081d01c82c58629045dc7a
+origin-bix-36-q5 rep=2 exit=0 sha256=603317313b27ed7a870ba2093238411ba3c33da09ded4822c42b1c1b70cc36c8
+probe36: r1 = r2 byte-identical

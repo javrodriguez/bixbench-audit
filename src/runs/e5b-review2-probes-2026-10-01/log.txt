@@ -1,0 +1,9 @@
+21:31:58 p52_r rep=1 exit=0
+21:31:59 p52_witness rep=1 exit=0
+21:37:11 q27_l3seeds rep=1 exit=0
+21:37:12 p52_r rep=2 exit=0
+21:37:13 p52_witness rep=2 exit=0
+21:42:17 q27_l3seeds rep=2 exit=0
+p52_r.txt identical
+p52_witness.txt identical
+q27_l3seeds.txt identical

@@ -1,0 +1,3 @@
+(25402, 90)
+genes after filter 21251 baseMean<10 in Control fit (approx): 18 min 0.0 median 10986.0
+lane path: genes with Control mean <10: 9863 of 25402

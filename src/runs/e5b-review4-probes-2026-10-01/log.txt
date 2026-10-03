@@ -1,0 +1,6 @@
+22:17:37 p52_zf_r rep=1 exit=0
+22:19:03 p3_apeglm rep=1 exit=0
+22:19:03 p52_zf_r rep=2 exit=0
+22:20:24 p3_apeglm rep=2 exit=0
+p52_zf_r identical
+p3_apeglm identical (timing lines excluded)

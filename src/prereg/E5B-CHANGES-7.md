@@ -1,0 +1,8 @@
+# E5b changes 7: bix-52-q3 with real Zebra Finch chromosome lengths (lane, 1 Oct 2026, 21:55 EDT)
+
+Adversarial review 3 (`src/reviews/E5B-ADVERSARIAL-3.md`): MAJOR 1, MINOR 3, NIT 3. Its MAJOR: the capsule's Zebra Finch length table is the Jackdaw table, so the per-base-pair reading was never computed for the Zebra Finch, and bounds anchored on the data alone do not exclude the key.
+The lane takes the review's first fix: fetch and pin the real lengths and compute the pre-registered E1 readings with them.
+- Lengths: NCBI assembly report for the Zebra Finch reference bTaeGut1.4.pri (RefSeq GCF_003957565.2, dated 2021-05-04), fetched 1 Oct 2026 21:54 EDT from `https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/957/565/GCF_003957565.2_bTaeGut1.4.pri/`, sha256 `0e604246c7202f62bfb49dcec3b1d4351d5f197c605b1c414cfe20a5f0961655` (git-ignored, lane folder `inputs/zf/`).
+  It is chosen because its naming matches the data (1-37 with 1A and 4A, W, Z) and every CpG position in the data lies within its chromosome (the script asserts both); the earlier bTaeGut1_v1.p (GCF_003957565.1, sha256 `c0ed5d01…ddb6d`) lacks chromosomes 30-37 and W, which the data hold, so it cannot be the data's reference.
+- `q/e5b/origin/bix-52-q3-zf-lengths.py` computes E1 for U1-U4 over the assembly's chromosomes (K1), the chromosomes with counted sites (K2) and the data's chromosomes (K3), plus E2 and E3 over K1; `run_zf.sh` runs it twice, single-threaded, into `src/runs/e5b-zf-lengths-2026-10-01/`.
+- These values are "added after key"; the readings are the pre-registered E1 family with the lengths the capsule should have carried.

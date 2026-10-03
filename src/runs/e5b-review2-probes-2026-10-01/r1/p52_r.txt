@@ -1,0 +1,4 @@
+U2-E2-K3 727.8316 
+U2-E3-K3 197.1733  (only chroms with sites)
+U2-E3-K3 all data chroms 204.1224 
+U3-E2-K3 1687.659  U3-E3-K3 449.0167 

@@ -1,0 +1,2 @@
+base    U2-E3-K3 204.1224  U2-E2 (chroms with sites) 727.8316 
+planted U2-E3-K3 216.5276  U2-E2 (chroms with sites) 802.8264 
